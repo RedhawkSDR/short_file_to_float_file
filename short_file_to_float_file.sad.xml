@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE softwareassembly PUBLIC "-//JTRS//DTD SCA V2.2.2 SAD//EN" "softwareassembly.dtd">
-<softwareassembly id="DCE:f2075b24-4f51-4b3d-a24f-0a273e218afc" name="short_file_to_float_file">
+<softwareassembly id="DCE:8e80198a-1a1f-11e5-8416-3417ebc4aab5" name="rh.short_file_to_float_file">
   <componentfiles>
     <componentfile id="FileReader_be173f25-6da2-419a-83aa-04169df7b32e" type="SPD">
-      <localfile name="/components/FileReader/FileReader.spd.xml"/>
+      <localfile name="/components/rh/FileReader/FileReader.spd.xml"/>
     </componentfile>
     <componentfile id="DataConverter_a03beed0-6f62-4b0c-a1e9-9c1e55313270" type="SPD">
-      <localfile name="/components/DataConverter/DataConverter.spd.xml"/>
+      <localfile name="/components/rh/DataConverter/DataConverter.spd.xml"/>
     </componentfile>
     <componentfile id="FileWriter_6ac646a1-3f37-45d1-8246-1eb0758f7158" type="SPD">
-      <localfile name="/components/FileWriter/FileWriter.spd.xml"/>
+      <localfile name="/components/rh/FileWriter/FileWriter.spd.xml"/>
     </componentfile>
   </componentfiles>
   <partitioning>

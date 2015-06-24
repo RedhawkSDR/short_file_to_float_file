@@ -7,17 +7,17 @@
 %define _prefix %{_sdrroot}
 Prefix: %{_prefix}
 
-Name: short_file_to_float_file
-Summary: Waveform short_file_to_float_file
+Name: rh.short_file_to_float_file
+Summary: Waveform rh.short_file_to_float_file
 Version: 1.0.0
 Release: 1
 License: LGPLv3+
 Group: REDHAWK/Waveforms
 Source: %{name}-%{version}.tar.gz
 # Require the controller whose SPD is referenced
-Requires: FileReader
+Requires: rh.FileReader
 # Require each referenced component
-Requires: FileReader DataConverter FileWriter
+Requires: rh.FileReader rh.DataConverter rh.FileWriter
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}
 
