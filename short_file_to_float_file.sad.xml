@@ -1,6 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE softwareassembly PUBLIC "-//JTRS//DTD SCA V2.2.2 SAD//EN" "softwareassembly.dtd">
-<softwareassembly id="DCE:8e80198a-1a1f-11e5-8416-3417ebc4aab5" name="rh.short_file_to_float_file">
+<softwareassembly id="DCE:8e80198a-1a1f-11e5-8416-3417ebc4aab5" name="rh.short_file_to_float_file" version="1.0.0">
   <componentfiles>
     <componentfile id="FileReader_be173f25-6da2-419a-83aa-04169df7b32e" type="SPD">
       <localfile name="/components/rh/FileReader/FileReader.spd.xml"/>
