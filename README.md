@@ -1,10 +1,10 @@
-# REDHAWK Basic Waveforms - 
+# REDHAWK Basic Waveforms - Short File to Float File
 
 Actively Managed
  
 ## Description
 
-Contains the source and build script for the REDHAWK Basic Waveform - 
+Contains the source and build script for the REDHAWK Basic Waveform short_file_to_float_file. This waveform reads in a file containing shorts, converts them to floats in REDHAWK and then writes out the file. This waveform uses three components, fileReader, DataConverter, and fileWriter.
 
 
 ## Active Tags and Branches
