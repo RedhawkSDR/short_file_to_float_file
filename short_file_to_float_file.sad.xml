@@ -93,4 +93,10 @@ with this program.  If not, see http://www.gnu.org/licenses/.
       </providesport>
     </connectinterface>
   </connections>
+  <externalproperties>
+    <property comprefid="FileWriter_1" propid="destination_uri" externalpropid="destination_uri"/>
+    <property comprefid="FileWriter_1" propid="destination_uri_suffix" externalpropid="destination_uri_suffix"/>
+    <property comprefid="FileWriter_1" propid="file_format" externalpropid="destination_file_format"/>
+    <property comprefid="FileReader_1" propid="file_format" externalpropid="souce_file_format"/>
+  </externalproperties>
 </softwareassembly>
