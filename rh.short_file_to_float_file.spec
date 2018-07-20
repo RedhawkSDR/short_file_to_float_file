@@ -26,7 +26,7 @@
 Name: rh.short_file_to_float_file
 Summary: Waveform rh.short_file_to_float_file
 Version: 1.0.2
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: LGPLv3+
 Group: REDHAWK/Waveforms
 Source: %{name}-%{version}.tar.gz
